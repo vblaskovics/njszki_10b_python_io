@@ -16,26 +16,20 @@ Ezután olvasson is be egy sort, majd nézze meg, hogy van-e olyan tanuló, akin
 - Ha a program talál valakit, akkor annak a nevét is írja ki (sorszám nélkül)
 - Hibakezelés: ha valaki számot tartalmazó, vagy több szavas nick-et ad meg, akkor a program írja ki, hogy: ```hibás nick```
 
-### Példa input és output
-
-#### 1. példa
-Input:
+### Példa futtatások
 ```
-Darkseeker
-```
-
-Output:
-```
+Adj meg egy nicket:
+Sunbringer
 van
-Kovács Zolta
+Major Barnabás
 ```
-#### 2. példa
-Input:
 ```
+Adj meg egy nicket:
+Asdf
+nincs
+```
+```
+Adj meg egy nicket:
 143 sanyi
-```
-
-Output:
-```
 hibás nick
 ```
