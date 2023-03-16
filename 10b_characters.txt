@@ -1,0 +1,31 @@
+1. Ádám János Dániel - Rogue
+2. Balogh Dániel - Sorcerer
+3. Bethlen Gábor - Druid
+4. Braun Dénes - Fighter
+5. Csengeri Barnabás - Cleric
+6. Dittera Károly Lajos - Wizard
+7. Ecker Bálint Barnabás - Ranger
+8. Erdélyi Balázs András - Sorcerer
+9. Farkas Gergely - Rogue
+10. Forczek Dániel - Paladin
+11. Horváth Márk - Wizard
+12. Kálmán Dániel Norbert - Cleric
+13. Kovács Levente - Paladin
+14. Kovács Zolta - Rogue
+15. Major Barnabás - Paladin
+16. Marton Balázs - Druid
+17. Nagy Bernát - Sorcerer
+18. Nagy-Erdei Móric Benedek - Druid
+19. Paróczi Krisztián - Rogue
+20. Péter-Szabó Alex - Wizard
+21. Sinka Dávid - Sorcerer
+22. Szabó András Péter - Wizard
+23. Szabó-Nagy Patrik - Ranger
+24. Szatlóczki Vidos Márton - Sorcerer
+25. Szerencsés Dávid Tibor - Ranger
+26. Totyik Róbert - Wizard
+27. Vadász Balázs - Rogue
+28. Vörös Ádám Lukács - Rogue
+29. Vörös Gergő - Druid
+30. Wächter Szabolcs - Ranger
+31. Wittinger Iván Dániel - Sorcerer
