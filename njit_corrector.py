@@ -233,3 +233,13 @@ def assertFileName(fname):
     else:
         subtaskFail()
         return
+
+
+def remove_file_if_exists(filename):
+    if os.path.exists(filename):
+        os.remove(filename)
+
+
+def rename_file_if_exists(filename, new_filename):
+    if os.path.exists(filename) and not os.path.exists(new_filename):
+        os.rename(filename, new_filename)
