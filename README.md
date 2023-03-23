@@ -38,12 +38,10 @@ hibás nick
 
 A 10.b. osztály egyik tanulója összegyűjtötte az osztálytársai által elért legjobb pontszámokat egy népszerű online játékban. A pontszámokat a ```10b_game_scores.txt``` fájlban találod. Írj egy Python programot, ami az alábbi feladatokat végzi:
 
-1. Olvassa be a ```10b_game_scores.txt``` fájl tartalmát és tárolja el egy listában.
-2. Számítsa ki a pontszámok összegét.
+1. Olvasd be a ```10b_game_scores.txt``` fájl tartalmát és tárold el egy listában.
+2. Számítsd ki a pontszámok összegét.
 3. Mentsd el az összeget egy új fájlba, ```sum_of_scores.txt``` néven.
-
-A program az elindítása után írja ki az alábbi szöveget:
-"Az összes pontszám: X" - ahol X az összeg értéke.
+4. Írasd ki az alábbi szöveget a konzolra: "Az összes pontszám: X" - ahol X az összeg értéke.
 
 
 ### Részletek
