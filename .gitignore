@@ -1,2 +1,5 @@
 __pycache__
 feladat*.py
+stats.txt
+sum_of_scores.txt
+top_players.txt

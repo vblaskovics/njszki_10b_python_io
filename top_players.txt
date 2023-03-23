@@ -1,9 +1,0 @@
-Nightblade: 17
-Dreamweaver: 18
-Starwatcher: 18
-Sunbringer: 18
-Shadowhunter: 16
-Soulweaver: 18
-Thunderbird: 20
-Nightstalker: 17
-Stormwatcher: 19
