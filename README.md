@@ -97,7 +97,7 @@ Legalacsonyabb pontszám: Shadowhunter - 16
 ```
 
 ### Extra feladat:
-Írasd ki az átlagos pontszámot (két tizedesjegy pontossággal), és annak tulajdonosát is:
+Írasd ki az átlagos pontszámot (két tizedesjegy pontossággal):
 ```
 Átlagos pontszám: 17.89
 ```
