@@ -50,7 +50,7 @@ with nc.exam():
         with nc.subtask("Helyes fájlnév", 1):
             nc.assertFileName("feladat02.py")
 
-        with nc.subtask("Helyes kiíratás a prompt-ra", 2):
+        with nc.subtask("Helyes kiíratás a prompt-ra", 1):
             nc.runFile("feladat02.py")
             nc.assertLastLine("Az összes pontszám: 340")
 
@@ -61,7 +61,7 @@ with nc.exam():
                 sum_value = int(f.read().strip())
                 nc.assertValues(sum_value, 340)
 
-        with nc.subtask("Helyes eredmény tetszőleges tartalmú 10b_game_scores.txt esetén is", 2):
+        with nc.subtask("Helyes eredmény tetszőleges tartalmú 10b_game_scores.txt esetén is", 1):
             os.rename("10b_game_scores.txt", "10b_game_scores.txt_ARCHIVE")
             with open("10b_game_scores.txt", "w") as f:
                 f.write("Flamebearer:14\n")
@@ -73,7 +73,7 @@ with nc.exam():
             nc.remove_file_if_exists("10b_game_scores.txt")
             os.rename("10b_game_scores.txt_ARCHIVE", "10b_game_scores.txt")
 
-        with nc.subtask("Extra: Helyes fájlgenerálás ha nincs 10b_game_scores.txt, de van game_scores.txt", 2):
+        with nc.subtask("Extra: Helyes fájlgenerálás ha nincs 10b_game_scores.txt, de van game_scores.txt", 1):
             nc.rename_file_if_exists("10b_game_scores.txt", "game_scores.txt")
             nc.runFile("feladat02.py")
             nc.assertLastLine("Az összes pontszám: 340")
@@ -123,7 +123,7 @@ with nc.exam():
         with nc.subtask("Helyes fájlnév", 1):
             nc.assertFileName("feladat03.py")
 
-        with nc.subtask("Helyesen megoldás", 2):
+        with nc.subtask("Helyesen megoldás", 5):
             nc.runFile("feladat03.py", "19")
             with open("top_players.txt", "r") as f:
                 line = f.readline()
@@ -151,15 +151,27 @@ with nc.exam():
         with nc.subtask("Helyes fájlnév", 1):
             nc.assertFileName("feladat04.py")
         
-        with nc.subtask("Helyesen generált statisztikák", 2):
+        with nc.subtask("Helyes output fájlnév: stats.txt", 1):
+            nc.runFile("feladat04.py")
+            nc.assertFileName("stats.txt")
+
+
+        with nc.subtask("Helyesen kiszámolt legmegasabb pontszám", 2):
             nc.runFile("feladat04.py")
             with open("stats.txt", "r", encoding="utf-8") as f:
                 content = f.read().strip().split("\n")
                 highest = "Legmagasabb pontszám: " in content[0]
+                nc.assertValues(highest, True)
+
+
+        with nc.subtask("Helyesen kiszámolt legalacsonyabb pontszám", 2):
+            nc.runFile("feladat04.py")
+            with open("stats.txt", "r", encoding="utf-8") as f:
+                content = f.read().strip().split("\n")
                 lowest = "Legalacsonyabb pontszám: " in content[1]
-                correct = highest and lowest
-                nc.assertValues(correct, True)
+                nc.assertValues(lowest, True)
         
+
         with nc.subtask("Extra: helyesen generált átlag", 2):
             nc.runFile("feladat04.py")
             with open("stats.txt", "r", encoding="utf-8") as f:
