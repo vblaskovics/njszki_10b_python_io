@@ -79,26 +79,25 @@ Shadowcaster: 17
 Ironclad: 16
 ```
 
-# 4. feladat - Statisztikák
+## 4. feladat - Statisztikák
 
 Írasd ki egy fájlba az alábbi statisztikát:
 - A legmagasabb pontszám és annak tulajdonosa.
 - A legalacsonyabb pontszám és annak tulajdonosa.
 
-## Részletek
+### Részletek
 - A program a ```feladat04.py``` fileban legyen.
 - A kimeneti fájl neve ```stats.txt``` legyen.
 - A kimenet formátuma a példában megadottal legyen megegyező:
 
-## Példa kimeneti fájl:
+### Példa kimeneti fájl:
 ```
 Legmagasabb pontszám: Thunderbird - 20
 Legalacsonyabb pontszám: Shadowhunter - 16
 ```
 
-## Extra feladat:
+### Extra feladat:
 Írasd ki az átlagos pontszámot (két tizedesjegy pontossággal), és annak tulajdonosát is:
 ```
 Átlagos pontszám: 17.89
 ```
-
